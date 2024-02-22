@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New York City</title>
+  <link rel="icon" href="./images/New_York_State.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="./css/global.css" rel="stylesheet">
+  </head>
+
+<body>
+  <header id="top-header">
+    <a class="navbar-brand" href="index.html"><img src="./images/Seal_of_New_York.svg.png" alt="Seal of New York"
+        width="85px" height="85px">
+      <p>The State of New York</p>
+    </a>
+  </header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.ny.gov"><b>NY.gov</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.iloveny.com/travel-tools/transportation/">Maps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" aria-current="page" href="morecities.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Cities
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item active" aria-current="page" href="bigapple.html">Big Apple</a></li>
+              <li><a class="dropdown-item" href="niagarafalls.html">Niagara Falls</a></li>
+              <li><a class="dropdown-item" href="montauk.html">Montauk</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="morecities.html">More Cities</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" action="http://www.google.com/search" method="GET">
+          <input class="form-control me-2" type="text" name="q" placeholder="Search the Site..." aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<body id="city">
+  
+  <aside class="social-sidebar">
+    <h2>Follow Us</h2>
+    <ul>
+      <li><a href="https://www.facebook.com/NewYorkDepartmentOfState/" target="_blank"><svg
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+          </svg>
+        </a>
+      </li>
+      <li><a href="https://twitter.com/NYGov?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-twitter-x" viewBox="0 0 16 16">
+            <path
+              d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+          </svg>
+        </a>
+      </li>
+      <li><a href="contact.html" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-telephone" viewBox="0 0 16 16">
+            <path
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </aside>
+
+  <section>
+    <article class="city">
+      <h1>New York City</h1>
+      <img src="./images/times-square.jpg" class="city-img" alt="Image of New York City skyline" style="width:650px;">
+      <div class="city-description">       
+        <section id="overview">
+          <h2>City Overview</h2>
+          <p>
+            New York City, often referred to as the "Big Apple" or simply "NYC," is a vibrant metropolis 
+            <span class="highlighter">established in 1667</span> bursting with energy, diversity, and endless
+            possibilities. Situated on the northeastern coast of the United States, NYC is composed of five boroughs:
+            Manhattan, Brooklyn, Queens, the Bronx, and Staten Island. Each borough offers its own unique flavor, 
+            contributing to the city's rich tapestry of cultures, languages, and traditions. Among this metropolis 
+            is a <span class="highlighter">population exceeding 8.8 million people.</span> At its core lies Manhattan, 
+            a bustling island that serves as the city's economic and cultural epicenter. Meanwhile, Brooklyn, with 
+            over 2.7 million residents, offers a diverse array of neighborhoods and artistic enclaves. Queens, the 
+            most ethnically diverse borough, boasts a population of nearly 2.4 million people and is renowned for 
+            its culinary delights and cultural festivals. The Bronx, home to approximately 1.4 million residents, 
+            is celebrated for its rich cultural heritage and iconic landmarks. Staten Island, with a population of 
+            over 480,000, charms visitors with its scenic parks and historic attractions. Together, these boroughs 
+            form a vibrant mosaic that embodies the spirit of New York City, where the energy of its diverse population 
+            fuels endless possibilities and opportunities.
+          </p>
+
+          (Source: <a href="https://en.wikipedia.org/wiki/New_York_City" style="color:rgb(184, 184, 238);">Wikipedia</a>)
+        </section>
+
+        <section id="location">
+          <h2>Region and Classification</h2>
+
+          <p>
+            New York City, located in the <span class="highlighter">northeastern region</span> of the United States alongside the
+            Atlantic Ocean's coastline, is classified as an <span class="highlighter">urban city</span> to its significant influence
+            on finance, commerce, culture, and media. As the largest city in the country, it serves as a major economic hub, attracting
+            businesses and individuals from around the world. Situated along the coast, the city's strategic location has historically 
+            made it a vital center for trade and transportation, further enhancing its global stature. From the iconic skyline of Manhattan
+            to the vibrant neighborhoods of Brooklyn, New York City's dynamic blend of cultures, opportunities, and attractions continues to
+            captivate visitors and residents alike, solidifying its status as one of the world's premier urban destinations.
+          </p>
+
+          (Source: <a href="https://www.nyc.gov/" style="color:rgb(184, 184, 238);">New York City Website</a>)
+        </section>
+
+        <section id="income">
+          <h2>Average Income and Economy</h2>
+          <p>
+            The median income in New York City is notably diverse and varies across its boroughs, reflecting the city's 
+            multifaceted economy. In 2023, the median household income in New York City was <span class="highlighter">$76,607</span>, 
+            with variations based on factors such as location, industry, and occupation. The city's economy is driven by a 
+            diverse range of sectors including finance, technology, media, tourism, healthcare, and education. Wall Street, 
+            situated in Manhattan's Financial District, is a prominent symbol of NYC's financial prowess, while Silicon Alley 
+            in Lower Manhattan and tech hubs in Brooklyn contribute to the city's innovation and technological advancement. 
+            Additionally, tourism plays a significant role, with iconic attractions like Times Square, Central Park, and Broadway 
+            generating billions of dollars annually. The city's vibrant cultural scene, world-class universities, and 
+            renowned medical institutions further bolster its economic vitality, making New York City a global powerhouse 
+            of opportunity and prosperity.
+          </p> 
+          
+          (Source: <a href="https://www.census.gov/quickfacts/fact/table/newyorkcitynewyork/INC110222" style="color:rgb(184, 184, 238);">US Census</a>)
+        </section>
+
+      </div>
+    </article>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
